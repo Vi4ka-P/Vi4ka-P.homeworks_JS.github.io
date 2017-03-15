@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>hw_1-2</title>
+</head>
+<body>
+  <script>
+
+  var arr = []; //инициализируется пустой массив
+  
+  for (i = 0; i < 5; i++) {
+  	arr[i] = prompt('Введите имя ' + (i + 1), '');
+  }
+
+  var name = prompt('Введите имя пользователя', '');
+  var nameIn;
+
+  for (var i = 0; i < 5; i++) {
+  	if (arr[i] === name) {
+  		nameIn = true;
+  		break; //завершаем цикл
+  	} else {
+  		nameIn = false;
+  	} 
+  }
+
+  if (!nameIn) { //булевоe значениe
+  	alert('Такое имя как "' + name + '" не найдено');
+  } else {
+  	alert(name + ', вы успешно вошли');
+  }
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>hw_1-2</title>
+</head>
+<body>
+  <script>
+ 
+  var number;
+  var degree;
+
+  number = prompt('Введите число', '');
+  degree = prompt('Введите степень', ''); 
+
+  function pow(number, degree) {
+  	var result = 1;
+  	if (degree < 0) {
+  		number = 1 / number;
+  		degree *= -1; // то же что и degree = degree * -1
+  	}
+
+  	for (var i = 0; i < degree; i++) {
+  		result = result * number;
+  	}
+
+  	return result;
+  }  
+
+  result = pow(number, degree);
+  console.log('result =', result);
+
+  </script>
+</body>
+</html>
