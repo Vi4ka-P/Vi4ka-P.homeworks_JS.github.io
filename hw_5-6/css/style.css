@@ -1,0 +1,31 @@
+.container{
+	padding-top: 100px;
+}
+
+.my-btns{
+	width: 70px;
+	margin: 10px;
+}
+
+.buttons{
+	margin: 0 auto;
+	width: 227px;
+}
+
+.btn-info{
+	margin-right: 10px;
+}
+
+.my-btn{
+	width: 200px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	font-size: 25px;
+}
+
+.statist{
+	width: 203px;
+	margin: 20px auto;
+	font-size: 20px;
+}
